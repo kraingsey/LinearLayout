@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#00f112"
+            android:text="Better"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:gravity=""
+            >
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:onClick="homeactivitybtn"
+            android:src="@drawable/ic_baseline_home_24">
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_read_more_24"
+            android:layout_gravity="center"
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_speaker_phone_24"
+            android:layout_marginLeft="20dp"
+            >
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_important_devices_24"
+            android:layout_marginLeft="20dp">
+
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:onClick="activity3btnsetting"
+            android:src="@drawable/ic_setting_foreground">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_bed_foreground"
+            android:layout_marginLeft="20dp">
+
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_preview_foreground"
+            android:layout_marginLeft="20dp"
+            >
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_watch_foreground"
+            android:layout_marginLeft="20dp">
+
+        </ImageButton>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

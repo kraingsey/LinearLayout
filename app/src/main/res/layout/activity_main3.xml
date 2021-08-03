@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#01DCF8"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#01DCF8"
+                android:onClick="backactivity2btn"
+                android:src="@drawable/ic_back1_foreground">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity=""
+                android:shadowColor="#0E0D0D"
+                android:text="twitter"
+                android:textColor="#0538EF"
+                android:textSize="34sp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-black"
+
+                >
+
+            </TextView>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pngkit_message"
+                android:layout_marginRight="10dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_preview">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_tweet"
+                android:layout_gravity="center"
+                android:layout_margin="40dp">
+
+
+            </ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_list"
+                android:layout_gravity="center"
+                android:layout_margin="40dp">
+
+
+            </ImageButton>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#01DCF8"
+                android:layout_marginLeft="70dp"
+                >
+
+            </TextView>
+            <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="List"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:textColor="#01DCF8"
+                android:layout_marginLeft="110dp"
+            >
+
+             </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_profile"
+                android:layout_gravity="center"
+                android:layout_margin="40dp">
+
+
+            </ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_message"
+                android:layout_gravity="center"
+                android:layout_margin="40dp">
+
+
+            </ImageButton>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#01DCF8"
+                android:layout_marginLeft="70dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#01DCF8"
+                android:layout_marginLeft="110dp"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_trade"
+                android:layout_gravity="center"
+                android:layout_margin="40dp">
+
+
+            </ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_search"
+                android:layout_gravity="center"
+                android:layout_margin="40dp">
+
+
+            </ImageButton>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Trade"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#01DCF8"
+                android:layout_marginLeft="70dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:textColor="#01DCF8"
+                android:layout_marginLeft="110dp"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

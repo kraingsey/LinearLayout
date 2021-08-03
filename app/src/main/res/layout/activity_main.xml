@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="Action">
+
+        </Button>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="M">
+
+        </Button>
+        <Button
+            android:layout_width="50dp"
+
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="S">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="activitylayout2btnaction1"
+            android:text="Action1">
+
+        </Button>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="Action2">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="Action3">
+
+        </Button>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="Action4">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="Action5">
+
+        </Button>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="Action6">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
